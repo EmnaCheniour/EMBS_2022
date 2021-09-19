@@ -1,80 +1,80 @@
 import React from "react";
 import { Row, Container } from "react-bootstrap";
 import "./homeStyle.css";
-import aicha from "./img/team/aicha.webp";
-import emnag from "./img/team/emnag.webp";
-import emnah from "./img/team/emnah.webp";
-import farouk from "./img/team/farouk.webp";
-import houssem from "./img/team/houssem.webp";
-import mahdi from "./img/team/mahdi.webp";
-import rihab from "./img/team/rihab.webp";
-import selma from "./img/team/selma.webp";
+import asma from "./img/team/asma.jpg";
+import yasmine from "./img/team/yasmine.JPG";
+import syrine from "./img/team/syrine.JPG";
+import amina from "./img/team/amina.JPG";
+import khouloud from "./img/team/khouloud.jpg";
+import emna from "./img/team/emna.JPG";
+import chaima from "./img/team/chaima.jpg";
+import nour from "./img/team/nour.jpg";
 import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
 
 const ourTeam = [
   {
-    image: farouk,
-    name: "Farouk Saaidia",
-    post: "Chairman",
-    fb: "https://www.facebook.com/saaidia.farouk",
-    insta: "https://www.instagram.com/farouk.saaidia/",
-    linkedin: "#",
+    image: amina,
+    name: "Amina Elair",
+    post: "Chairwoman",
+    fb: "https://www.facebook.com/profile.php?id=100005447370834",
+    insta: "https://www.instagram.com/amina_elair/",
+    linkedin: "https://www.linkedin.com/in/amina-elair-1bba82219",
   },
   {
-    image: emnag,
-    name: "Emna Guesmi",
+    image: yasmine,
+    name: "Yasmine Zarrouk",
     post: "Vice Chair",
-    fb: "https://www.facebook.com/emna.guesmi.0123",
-    insta: "https://www.instagram.com/emna.guesmi12/",
+    fb: "https://www.facebook.com/yasmiinezarrouk/",
+    insta: "https://www.instagram.com/yasszarrouk_/",
     linkedin: "#",
   },
   {
-    image: emnah,
-    name: "Emna Hdili",
+    image: syrine,
+    name: "Syrine Jerbi",
     post: "HR Manager",
-    fb: "https://www.facebook.com/emna.hdili",
-    insta: "https://www.instagram.com/emnahdili/",
-    linkedin: "#",
+    fb: "https://www.facebook.com/cyrine.jerbi.5201",
+    insta: "https://www.instagram.com/syrine.jerbi/",
+    linkedin: "https://www.linkedin.com/in/syrine-jerbi-3a4642202",
   },
   {
-    image: houssem,
-    name: "Houssem Zitoun",
+    image: khouloud,
+    name: "Khouloud Kharouni",
     post: "General Secretary",
-    fb: "https://www.facebook.com/houssem.zitoun.2k",
-    insta: "https://www.instagram.com/houssamzitoun/",
+    fb: "https://www.facebook.com/profile.php?id=100009469162142",
+    insta: "https://www.instagram.com/kkhoulouud/",
     linkedin: "#",
   },
   {
-    image: rihab,
-    name: "Rihab Darghouthi",
+    image: chaima,
+    name: "Chaima Fadhloune ",
     post: "Training Manager",
-    fb: "https://www.facebook.com/rihab.darghouthi",
-    insta: "https://www.instagram.com/rihab_darghouthi/",
-    linkedin: "#",
+    fb: "https://www.facebook.com/chaima.fadhloune.31",
+    insta: "https://www.instagram.com/chaima_fadhloune/",
+    linkedin: "https://www.linkedin.com/in/chaima-fadhloune-961330211",
   },
   {
-    image: selma,
-    name: "Selma Ayechi",
+    image: nour,
+    name: "Nour Kalai",
     post: "Media Manager",
-    fb: "https://www.facebook.com/selma.ayachi",
-    insta: "https://www.instagram.com/selmaayachi/",
-    linkedin: "#",
+    fb: "https://www.facebook.com/nour.kalai",
+    insta: "https://www.instagram.com/nour.kalai/",
+    linkedin: "https://www.linkedin.com/in/nour-kalai-6b1767193",
   },
   {
-    image: aicha,
-    name: "Aicha Hedda",
+    image: asma,
+    name: "Asma Hathroubi",
     post: "Treasurer",
-    fb: "https://www.facebook.com/aicha.hedda.52",
-    insta: "https://www.instagram.com/aycha_hedda/",
-    linkedin: "#",
+    fb: "https://www.facebook.com/asma.hathroubi.3/",
+    insta: "https://www.instagram.com/asma_hath/",
+    linkedin: "https://www.linkedin.com/in/asma-hathroubi-b311521b9/",
   },
   {
-    image: mahdi,
-    name: "Med Mahdi Bouaziz",
+    image: emna,
+    name: "Emna Cheniour",
     post: "Webmaster",
-    fb: "https://www.facebook.com/mahdi.bouaziz.319",
-    insta: "https://www.instagram.com/mahdii.bouaziz/",
-    linkedin: "#",
+    fb: "https://www.facebook.com/emna.cheniour.23",
+    insta: "https://www.instagram.com/emna.cheniour/",
+    linkedin: "https://www.linkedin.com/in/emna-cheniour-06568b200/",
   },
 ];
 
