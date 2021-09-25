@@ -180,7 +180,7 @@
 .Feedback {
   padding-bottom: 1rem;
   position: relative;
-  background-image: url("./img/feedback/feedbackbg.webp");
+  background-image: url("./img/feedback/feedbackbg.jpg");
   min-height: 100%;
   opacity: 0.95;
   background-position: center;
@@ -212,7 +212,8 @@
 }
 
 .Feedback .carousel-caption .name {
-  color: rgb(255, 255, 255);
+  color: #0b057d;
+  font-family: "Montserrat", sans-serif;;
   font-weight: 600;
   font-size: 1.7rem;
 }
@@ -220,7 +221,7 @@
 .Feedback .carousel-caption .description {
   margin-top: 1rem;
   font-size: 1.3rem;
-  color: white;
+  color: #2494ff;
   padding-left: 10rem;
   padding-right: 10rem;
 }

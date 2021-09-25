@@ -26,7 +26,7 @@ const FeedBack = () => {
             <Carousel.Caption>
               <p className="name">Houssem</p>
               <p className="description">
-                when you are good at something never do it for free, but there
+                When you are good at something never do it for free, but there
                 is always an exception for The IEEE
               </p>
             </Carousel.Caption>

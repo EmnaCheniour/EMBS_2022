@@ -10,9 +10,13 @@ const GlobalStyle = createGlobalStyle`
     .title{
         color:${({ theme }) => theme.title};
     }
-    ${"" /* Far all titles descriptions */}
+    ${"" /* For all titles descriptions */}
     .paragraph{
-        color:${({ theme }) => theme.paragraph}
+        color:${({ theme }) => theme.paragraph};
+    }
+    ${"" /*For all paragraphs in footer and titles in nav */}
+    .footerNav{
+        color:${({ theme }) => theme.footerNav};
     }
     ${"" /* Backgrounds */}
     .team-section, 
@@ -30,7 +34,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .footer-section{
-        background-color:${({ theme }) => theme.bg1};
+        background-color:${({ theme }) => theme.bg4};
     }
     .Feedback {
     }

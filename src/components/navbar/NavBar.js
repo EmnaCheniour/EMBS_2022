@@ -25,10 +25,9 @@ const Nav = styled.nav`
   ) =>
     props.posit
       ? props.theme === "light"
-        ? "#fff"
+        ? "#7da7d9"
         : "#333"
       : "rgba(0, 0, 0, 0)"};
-
   border-color: transparent;
   box-shadow: ${(props) =>
     props.posit

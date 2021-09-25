@@ -4,6 +4,7 @@ import logoblack from "./embs_logo_white.png";
 import logowhite from "./embs_logo_black.png";
 import { MdLocationOn, MdMailOutline } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
+import { FaQuestionCircle } from "react-icons/fa";
 
 const Footer = (props) => {
   const { theme } = props;
@@ -12,24 +13,23 @@ const Footer = (props) => {
       <div className="wrapper">
         <div className="footer-col">
           <img src={theme === "light" ? logoblack : logowhite} alt="" />
-          <p className="footer-col-desc paragraph">
-            If you think you have the passion, attitude and capability to join
-            us, don't hesitate
+          <p className="footer-col-desc footerNav">
+             If you think you have the passion, attitude and capability to join us, don't hesitate
           </p>
         </div>
 
         <div className="footer-col">
           <p className="title">CONTACT US</p>
-          <p className="body paragraph">
+          <p className="body footerNav">
             <MdLocationOn
               style={{ fontSize: "1.1rem", position: "relative", top: "-4px" }}
             />
             INSAT Centre Urbain Nord BP 676 - 1080 Tunis Cedex{" "}
           </p>
-          <p className="body paragraph">
-            <FiPhoneCall /> (+216) 53 737 757
+          <p className="body footerNav">
+            <FiPhoneCall /> (+216) 92 040 808
           </p>
-          <p className="body paragraph">
+          <p className="body footerNav">
             <MdMailOutline /> embs-insat@outlook.com
           </p>
           <p className="social-footer">
@@ -51,6 +51,16 @@ const Footer = (props) => {
               <i className="fab fa-linkedin-in"></i>
             </a>
           </p>
+        </div>
+        <div className="footer-col">
+          <p className="title">NEED HELP</p>
+          <p className="body footerNav">
+            <FaQuestionCircle />FAQ{" "}
+          </p>
+          <p className="body footerNav">
+           Help ?{" "}
+          </p>
+          
         </div>
       </div>
     </footer>
