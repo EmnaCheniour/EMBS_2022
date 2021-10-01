@@ -60,7 +60,7 @@ const StyledNavlink = styled(NavLink)`
     color: ${(props) =>
       props.posit
         ? props.theme === "light"
-          ? "rgb(18, 18, 225)"
+          ? "rgb(18, 18, 225)" 
           : "#8dffff"
         : "#fff"};
     background: ${(props) => (props.posit ? null : "rgba(0,0,0,0.15)")};
