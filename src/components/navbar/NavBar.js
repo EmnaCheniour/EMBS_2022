@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Burger from "./Burger";
 import ContextNavProvider from "./ContextNav";
-import logoblack from "./embs_logo_white.png";
-import logowhite from "./embs_logo_black.png";
+import logoBlue from "./embs_bleu.png";
+import logoblack from "./embs_blanc.png";
+import logowhite from "./embs_noir.png";
 import { Link } from "react-router-dom";
 
 const Nav = styled.nav`
@@ -81,7 +82,7 @@ const Spacer = styled.div`
 `;
 
 const Logo = styled.img`
-  height: 3.5rem;
+  height: 3.7rem;
 `;
 
 const NavBar = (props) => {
@@ -110,8 +111,8 @@ const NavBar = (props) => {
               src={
                 theme === "light"
                   ? headerShow
-                    ? logoblack
-                    : logowhite
+                    ? logoBlue
+                    : logoblack
                   : logowhite
               }
               alt="logo"

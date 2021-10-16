@@ -44,7 +44,7 @@ const UL = styled.ul`
 
 const StyledNavlink = styled(NavLink)`
   color: ${(props) =>
-    props.posit ? (props.theme === "light" ? "#000" : "#fff") : "#fff"};
+    props.posit ? (props.theme === "light" ? "#fff" : "#fff") : "#fff"};
   margin: 0 0.25rem;
   padding: 0.5rem 1rem;
   &.active {

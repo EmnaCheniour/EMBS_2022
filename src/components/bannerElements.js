@@ -1,7 +1,7 @@
 import styled from "styled-components";
 export const Wrapper = styled.div`
   position: relative;
-  height: 90vh;
+  height: 80vh;
 `;
 export const BgImage = styled.img`
   position: absolute;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
-import logoblack from "./embs_logo_white.png";
-import logowhite from "./embs_logo_black.png";
+import logoblack from "./logo_bleu.png";
+import logowhite from "./logo_blanc.png";
 import { MdLocationOn, MdMailOutline } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaQuestionCircle } from "react-icons/fa";
@@ -14,7 +14,7 @@ const Footer = (props) => {
         <div className="footer-col">
           <img src={theme === "light" ? logoblack : logowhite} alt="" />
           <p className="footer-col-desc footerNav">
-             If you think you have the passion, attitude and capability to join us, don't hesitate
+             " If you think you have the passion, attitude and capability to join us, don't hesitate "
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Footer = (props) => {
             >
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/ieee-embs-insat-sb/about/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin-in"></i>
             </a>
           </p>
