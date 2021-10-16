@@ -5,7 +5,9 @@ const GlobalStyle = createGlobalStyle`
    *{
     transition: color 0.25s linear,background-color 0.25s linear;
    }
-
+   html > *{
+    background:${({ theme }) => theme.bg};
+   }
     ${"" /* For all the titles */}
     .title{
         color:${({ theme }) => theme.title};
@@ -24,8 +26,8 @@ const GlobalStyle = createGlobalStyle`
         background-color:${({ theme }) => theme.bg1};
     }
     .sponsors-section {
-         background-color:${({ theme }) => theme.bg2};
-    }
+        background-color:${({ theme }) => theme.bg5};
+   }
     .event-section , .visits-section, .collab-section{
         background-color:${({ theme }) => theme.bg3}
     }
@@ -35,8 +37,6 @@ const GlobalStyle = createGlobalStyle`
 
     .footer-section{
         background-color:${({ theme }) => theme.bg4};
-    }
-    .Feedback {
     }
     ${"" /* Navbar 7el l Navbar ligne 19 badel men ghadi */}
     ${"" /* Hover effect for boxes */}

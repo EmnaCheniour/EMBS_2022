@@ -29,7 +29,7 @@ const Sponsors = () => {
     <section className="sponsors-section section">
       <Container>
         <Row>
-          <h1 className="title">Our Sponsors</h1>
+          <h1 className="title titleSponsor">Our Sponsors</h1>
         </Row>
         <Row>
           <p className="body paragraph">

@@ -8,8 +8,8 @@ const Toggle = styled.div`
   border-radius: 12.5px;
   background-image: ${(props) =>
     props.toggled
-      ? "linear-gradient(midnightblue, rebeccapurple)"
-      : "linear-gradient(#0fb7f1, #2383ab)"};
+      ? "linear-gradient(#0b057d, rebeccapurple)"
+      : "linear-gradient(#0b057d, #2383ab)"};
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   margin-left: 1.2rem;

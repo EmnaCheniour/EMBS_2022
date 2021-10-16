@@ -15,7 +15,8 @@ footer {
 }
 
 .wrapper img {
-  width: 10rem;
+  width: 19rem;
+  margin: 0.7rem auto;
   position: relative;
 }
 
